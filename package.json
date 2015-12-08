@@ -13,5 +13,6 @@
         "psr-4": {
             "heinbez\\Mapbox\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "stable"
 }
