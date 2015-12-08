@@ -19,7 +19,7 @@ Installing the library is super easy.
 );
 ```
 ## Using
-    ```php
+```php
     $mapbox = new \Mapbox\Mapbox($width, $height);
     
     // Configure your path style
@@ -42,6 +42,6 @@ Installing the library is super easy.
 
     // Return the map URL
     echo $mapbox->generate();
-    ```
+```
 ### Preview
 ![](http://i.imgur.com/NRhe6hR.png)
