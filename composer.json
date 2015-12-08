@@ -9,7 +9,9 @@
             "email": "heinbez@gmail.com"
         }
     ],
-    "psr-4": {
-        "Heinbez\\Mapbox\\": "src/"
+    "autoload": {
+        "psr-0": {
+            "Mapbox": "src/"
+        }
     }
 }
