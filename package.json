@@ -1,0 +1,14 @@
+{
+  "name": "mapbox",
+  "version": "0.1.8",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heinbez/mapbox"
+  },
+  "authors": [
+  {
+      "name": "Heinrich Bezuidenhout",
+      "email": "heinbez@gmail.com",
+      "role": "Developer"
+  }
+}
