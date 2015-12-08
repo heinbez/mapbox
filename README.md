@@ -46,4 +46,5 @@ Installing the library is super easy.
     // Return the map URL
     echo $mapbox->generate();
 
+### Preview
 ![](http://i.imgur.com/h1cR0lH.png)
