@@ -44,7 +44,10 @@
 		/**
 		 * Constructor Call
 		 */
-		public function __construct() {}
+		public function __construct($w = 500, $h = 200) {
+			$this->setWidth($w);
+			$this->setHeight($h);
+		}
 	
 		/**
 		 * Set Configuration options
@@ -78,7 +81,7 @@
 		 * 
 		 * @param Integer $w
 		 */
-		public function setWidth($w) {
+		private function setWidth($w) {
 			$this->width = $w;
 		}
 	
@@ -87,7 +90,7 @@
 		 * 
 		 * @param Integer $h
 		 */
-		public function setHeight($h) {
+		private function setHeight($h) {
 			$this->height = $h;
 		}
 	
