@@ -1,6 +1,6 @@
 <?php
 
-	namespace Mapbox;
+	namespace Heinbez\Mapbox;
 	
 	class Mapbox {
 	
