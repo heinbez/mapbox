@@ -7,7 +7,7 @@ Installing the library is super easy.
 
 ## Configuration
 
-    ``php \Mapbox\Mapbox::setConfig(
+    \Mapbox\Mapbox::setConfig(
         new \Mapbox\MapboxConfiguration([
             'host' => 'https://api.mapbox.com/v4',
             'style' => 'mapbox.light',
