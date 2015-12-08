@@ -19,11 +19,7 @@ Installing the library is super easy.
     );
 
 ## Using
-    $mapbox = new \Mapbox\Mapbox;
-    
-    // Set map width & height
-    $mapbox->setWidth(500); 
-    $mapbox->setHeight(200);
+    $mapbox = new \Mapbox\Mapbox($width, $height);
     
     // Configure your path style
     $mapbox->setStyle(
