@@ -14,7 +14,7 @@
             "Mapbox": "src/"
         },
         "classmap":[
-          "Heinbez/Mapbox"
+          ""
         ]
     }
 }
