@@ -47,4 +47,4 @@ Installing the library is super easy.
     echo $mapbox->generate();
 
 ### Preview
-![](http://i.imgur.com/h1cR0lH.png)
+![](http://i.imgur.com/NRhe6hR.png)
