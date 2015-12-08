@@ -9,12 +9,7 @@
             "email": "heinbez@gmail.com"
         }
     ],
-    "autoload": {
-        "psr-0": {
-            "Mapbox": "src/"
-        },
-        "classmap":[
-          ""
-        ]
+    "psr-4": {
+        "Heinbez\\Mapbox\\": "src/"
     }
 }
