@@ -6,9 +6,10 @@
     "url": "https://github.com/heinbez/mapbox"
   },
   "authors": [
-  {
-      "name": "Heinrich Bezuidenhout",
-      "email": "heinbez@gmail.com",
-      "role": "Developer"
-  }
+    {
+        "name": "Heinrich Bezuidenhout",
+        "email": "heinbez@gmail.com",
+        "role": "Developer"
+    }
+  ]
 }
