@@ -6,18 +6,18 @@ Installing the library is super easy.
     composer require heinbez/mapbox 
 
 ## Configuration
-    ```php
-    \Mapbox\Mapbox::setConfig(
-        new \Mapbox\MapboxConfiguration([
-            'host' => 'https://api.mapbox.com/v4',
-            'style' => 'mapbox.light',
-            'client' => [
-                'key' => 'xxx',
-                'secret' => 'xxx'
-            ]
-        ])
-    );
-    ```
+```php
+\Mapbox\Mapbox::setConfig(
+    new \Mapbox\MapboxConfiguration([
+        'host' => 'https://api.mapbox.com/v4',
+        'style' => 'mapbox.light',
+        'client' => [
+            'key' => 'xxx',
+            'secret' => 'xxx'
+        ]
+    ])
+);
+```
 ## Using
     ```php
     $mapbox = new \Mapbox\Mapbox($width, $height);
