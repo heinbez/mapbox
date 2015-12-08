@@ -10,8 +10,8 @@
         }
     ],
     "autoload": {
-        "psr-0": {
-            "Heinbez\\Mapbox\\": "src/"
-        }
+      "psr-4": {
+        "Mapbox\\": "src/"
+      }
     }
 }
