@@ -1,15 +1,17 @@
 {
-  "name": "mapbox",
-  "version": "0.1.8",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/heinbez/mapbox"
-  },
-  "authors": [
-    {
-        "name": "Heinrich Bezuidenhout",
-        "email": "heinbez@gmail.com",
-        "role": "Developer"
+    "name": "heinbez/mapbox",
+    "description": "Mapbox Static Map Generator",
+    "keywords": ["mapbox", "map", "static", "path", "journey", "geo"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Heinrich Bezuidenhout",
+            "email": "heinbez@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "heinbez\\Mapbox\\": "src/"
+        }
     }
-  ]
 }
