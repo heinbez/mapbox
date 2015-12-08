@@ -7,8 +7,8 @@ Installing the library is super easy.
 
 ## Configuration
 
-    Mapbox::setConfig(
-        new MapboxConfiguration([
+    \Mapbox\Mapbox::setConfig(
+        new \Mapbox\MapboxConfiguration([
             'host' => 'https://api.mapbox.com/v4',
             'style' => 'mapbox.light',
             'client' => [
@@ -19,7 +19,7 @@ Installing the library is super easy.
     );
 
 ## Using
-    $mapbox = new Mapbox;
+    $mapbox = new \Mapbox\Mapbox;
     
     // Set map width & height
     $mapbox->setWidth(500); 
@@ -27,7 +27,7 @@ Installing the library is super easy.
     
     // Configure your path style
     $mapbox->setStyle(
-        new MapboxStyle([
+        new \Mapbox\MapboxStyle([
             'stroke-width' => 6,
             'stroke' => '#6b5fe9',
             'stroke-opacity' => 1
