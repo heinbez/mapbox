@@ -6,7 +6,7 @@ Installing the library is super easy.
     composer require heinbez/mapbox 
 
 ## Configuration
-    ```php
+    ``php
     \Mapbox\Mapbox::setConfig(
         new \Mapbox\MapboxConfiguration([
             'host' => 'https://api.mapbox.com/v4',
@@ -19,7 +19,7 @@ Installing the library is super easy.
     );
 
 ## Using
-    ```php
+    ``php
     $mapbox = new \Mapbox\Mapbox($width, $height);
     
     // Configure your path style
