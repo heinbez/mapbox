@@ -10,8 +10,11 @@
         }
     ],
     "autoload": {
-        "psr-4": {
-            "heinbez\\mapbox\\": "src/"
-        }
+        "psr-0": {
+            "Mapbox": "src/"
+        },
+        "classmap":[
+          "Heinbez/Mapbox"
+        ]
     }
 }
