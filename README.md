@@ -7,6 +7,8 @@ Installing the library is super easy.
 
 ## Configuration
 ```php
+include '../vendor/autoload.php';
+
 Mapbox\Mapbox::setConfig(
     new Mapbox\MapboxConfiguration([
         'host' => 'https://api.mapbox.com/v4',
