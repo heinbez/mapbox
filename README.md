@@ -22,7 +22,7 @@ Mapbox\Mapbox::setConfig(
 ```
 ## Using
 ```php
-$mapbox = new\Mapbox\Mapbox($width, $height);
+$mapbox = new Mapbox\Mapbox($width, $height);
 
 // Configure your path style
 $mapbox->setStyle(
